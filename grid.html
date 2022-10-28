@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layour</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: aliceblue;
+            display: flex;
+            place-items: centre;
+            min-height: ;
+            height: 100vh;
+        }
+        
+        main {
+            display: grid;
+            grid-template-areas: "a a b c" "d e e c";
+            gap: 10px;
+            width: 50%;
+            margin: auto;
+        }
+        
+        main div {
+            padding: 2em;
+            text-align: center;
+            border-radius: 5px;
+        }
+        
+        .a {
+            background-color: aqua;
+            grid-area: a;
+        }
+        
+        .b {
+            background-color: blue;
+            grid-area: b;
+        }
+        
+        .c {
+            background-color: orangered;
+            grid-area: c;
+        }
+        
+        .d {
+            background-color: limegreen;
+            grid-area: d;
+        }
+        
+        .e {
+            background-color: purple;
+            grid-area: e;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+        <div class="d">D</div>
+        <div class="e">E</div>
+
+    </main>
+</body>
+
+</html>

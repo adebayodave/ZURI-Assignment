@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(226, 221, 221, 0.808);
+    width: 100%;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sedan {
+    background-color: orangered;
+    padding: 2rem;
+    height: 60%;
+    border-end-start-radius: 10px;
+    border-start-start-radius: 10px;
+}
+
+.sedan img {
+    padding-bottom: 10px;
+}
+
+.sedan h3 {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.sedan p {
+    color: white;
+    padding-bottom: 70px;
+    font-weight: lighter;
+}
+
+.sedan a {
+    color: white;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.suv {
+    background-color: rgba(3, 58, 12, 0.788);
+    padding: 2rem;
+    height: 60%;
+    /* border-radius: 10px; */
+}
+
+.suv img {
+    padding-bottom: 10px;
+}
+
+.suv h3 {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.suv p {
+    color: white;
+    padding-bottom: 70px;
+    font-weight: lighter;
+}
+
+.suv a {
+    color: white;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.lux {
+    background-color: rgb(2, 27, 2);
+    padding: 2rem;
+    height: 60%;
+    border-start-end-radius: 10px;
+    border-end-end-radius: 10px;
+}
+
+.lux img {
+    padding-bottom: 10px;
+}
+
+.lux h3 {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.lux p {
+    color: white;
+    padding-bottom: 70px;
+    font-weight: lighter;
+}
+
+.lux a {
+    color: white;
+    padding-top: 15px;
+    border-radius: 20px;
+}
